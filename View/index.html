@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho - Rotas</title>
+
+    <style>
+        body{
+            background-color: black;
+        }
+        .a{
+            display: grid;
+            justify-content: center;
+        }
+        .infos{
+            width: 900px;
+            background-color: white;
+            color: black;
+            text-align: center;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 29px;
+        }
+
+        .infos h1,h2,h3{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .infos p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .conteudo{
+            margin-top: 30px;
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            border-radius: 15px;
+            display: grid;
+            justify-content: center;
+            height: 450px;
+        }
+
+        .conteudo h2{
+            align-items: center;
+            text-align: center;
+        }
+
+        .ulr1{
+            background-color: lightgray;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
+
+        .ulr1 p{
+            margin-left: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+        <div class="a">
+            <div class="infos">
+            <h1>Trabalho Desenvolvimento Web III - Rotas</h1>
+            <h3>Participantes: Ayrton Senna Cabani Bastos</h3>
+            <h2>Breve descrição:</h2>
+            <p>O trabalho foi realizado usando Node.js e o framework Express.js, para pratica do uso de ROTAS. <br>
+                o trabalho consiste em uma aplicação na qual fornece 5 telas sendo elas: <br><br>
+                    1 -> O index <br>
+                    2 -> Uma tela de exibição do conteudo fornecido <br>
+                    3 -> Uma tela de exibição dos links que o conteudo possui <br>
+                    4 -> Uma tela de exibição dizendo se o arquivo foi encontrado <br>
+                    5 -> Caso o caminho na URL seja invalido <br>
+            </p>
+        </div>
+
+        <div class="conteudo">
+            <h2>Para acessar o conteudo:</h2>
+         <div class="exp-entrada">
+           <h3>Para exibilção do conteudo na URL digite: /entrada</h3>
+            <div class="ulr1">
+                <p>localhost:4250/entrada</p>
+            </div>
+         </div>
+
+         <div class="exp-entrada">
+            <h3>Para exibilção dos links na URL digite: /links</h3>
+             <div class="ulr1">
+                 <p>localhost:4250/links</p>
+             </div>
+          </div>
+
+          <div class="exp-entrada">
+            <h3>Para verificar na URL digite: /validar</h3>
+             <div class="ulr1">
+                 <p>localhost:4250/validar</p>
+             </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
